@@ -5,11 +5,11 @@ for i,j in enumerate(inp):
     if j == inp[(i+1)%len(inp)]:
         count += int(j)
 
-print(count)
+print("1:", count)
 
 count = 0
 for i,j in enumerate(inp):
     if j == inp[(i+len(inp)//2)%len(inp)]:
         count += int(j)
 
-print(count)
+print("2:", count)
